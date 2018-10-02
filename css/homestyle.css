@@ -1,0 +1,1358 @@
+*
+{
+    transition: all 1s;
+}
+
+
+
+#navbar .bg-light{
+    background-color: #212529!important;
+}
+
+#navbar .nav-link{
+    color: #fff;
+}
+
+
+#navbar .nav-link:hover{
+    color: red;
+}
+
+
+
+#navbar .active {
+    color: red!important ;
+    
+    
+}
+
+#navbar .navbar-brand{
+   
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Poppins', Helvetica, arial, sans-serif;
+    
+    overflow: hidden;
+}
+
+#navbar .navbar-brand .brand-title
+{
+    padding: 35px 10px;
+   
+}
+
+
+#navbar .navbar-brand img
+{
+  width: 90px;
+    height: 60px;
+    padding-top: 0px;
+    
+    
+}
+
+#navbar  .navbar-nav .nav-item
+{
+    padding: 10px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#background .cover 
+{
+    background-image: url(bac.jpg);
+    padding-top: 50px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    
+}
+
+
+
+#background .cover .cover-title
+{
+   padding-top: 90px; 
+    font-weight: 700;
+    color: #ffffff;
+    width: 100%;
+    font-size: 50px;
+}
+
+#background .cover .cover-subtitle
+{
+     padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    color: #ffffff;
+    width: 100%;
+    font-size: 30px;
+}
+
+
+#background .cover .btn{
+    padding: 10px 30px;
+}
+
+
+#background .btn-outline-danger{
+    color: #f8f9fa;
+    background-color: transparent;
+    background-image: none;
+    border-color: #fff;
+
+}
+#background .btn-outline-danger:hover{
+    color: red;
+    background-color: white;
+}
+
+
+#background .cover .covr-link
+{
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#aboutme  .caption h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+#aboutme  .caption p{
+    font-weight: 300;
+    color: #777777;
+    font-family: 'Poppins', Helvetica, arial, sans-serif;
+}
+
+#aboutme .about-caption h2{
+    
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+
+#aboutme .about-caption h4{
+    
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+#aboutme .about-caption p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #777777;
+    font-family: 'Poppins', Helvetica, arial, sans-serif;
+}
+
+#aboutme .caption2 ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+
+#aboutme .caption2 ul li {
+    float: left;
+     border: 1px solid #777777;
+    margin-left: 5px;
+}
+
+
+#aboutme .caption2 ul li a{
+    padding: 10px 10px;
+    font-size: 30px;
+    
+}
+
+#aboutme .caption2 ul li a i{
+    color: #777777;
+    
+    
+}
+
+#aboutme .caption2 li:hover  {
+    color: #fff;
+    background-color: red;
+}
+
+#aboutme .clr{
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#skills .skills-caption h2{
+        font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    
+}
+#skills .skills-caption p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #777777;
+    font-family: 'Poppins', Helvetica, arial, sans-serif;
+}
+
+#skills .skillbar{
+    padding-top: 10px;
+}
+
+
+#skills .progress-bar{
+    background-color: #ec3237;
+}
+
+
+#skills .skillbar .endbar{
+  float: right;
+}
+
+
+#skills .skillbut{
+    text-align: center;
+   
+    padding-top: 50px;
+}
+
+
+#skills .skillbut .btn{
+    padding: 10px 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#whattodo .whatdo{
+    width: 100%;
+    background-color: #f5f5f5;
+    height: auto;
+} 
+
+
+
+
+#whattodo .whatdo-caption{
+    padding-top: 80px;
+}
+
+
+#whattodo .whatdo-caption h2{
+    
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size:40px;
+}
+
+#whattodo .whatdo-caption p{
+    font-weight: 300;
+        font-size: 16px;
+    color: #777777;
+    font-family: 'Poppins', Helvetica, arial, sans-serif;
+}
+
+#whattodo .col-md-4{
+    padding-top: 20px;
+}
+
+
+
+#whattodo .card-title{
+          font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+#whattodo .card-text{
+          font-size: 16px;
+    font-weight: 300;
+    color: #777777;
+    
+    font-family: 'Poppins', Helvetica, arial, sans-serif;
+}
+
+
+#whattodo .card i{
+    padding: 10px 10px;
+    padding-left: 10px;
+    background-color: #eeeeee;
+    text-align: center;
+   
+}
+
+
+#whattodo .card:hover i{
+    color: red;
+}
+
+
+#whattodo .card:hover h5{
+    color: red;
+}
+
+
+
+
+
+
+#whattodo .what-button{
+  
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    
+}
+
+#whattodo .what-button .btn{
+    padding: 15px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bacimg .bacimg-img{
+    width: 100%;
+    height: auto;
+    background-image: url('project-counter.jpg');
+    background-size: cover;
+   
+}
+
+
+
+#bacimg .caption4 {
+   padding: 60px 40px;
+    border: 1px dotted #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+#bacimg .caption4 i{
+    padding-bottom: 25px;
+    color:#ec3237;
+}
+#bacimg .caption4 span {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#bacimg .caption4 h4{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ec3237;
+    font-size: 20px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#myportofilio .maincaption{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+#myportofilio .caption5{
+    padding-top: 60px;
+}
+
+
+
+#myportofilio .caption5 h2{
+     
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size:40px;
+    
+}
+
+#myportofilio .caption5 p{
+     font-weight: 300;
+        font-size: 16px;
+    color: #777777;
+    font-family: 'Poppins', Helvetica, arial, sans-serif;
+    
+}
+
+
+
+#myportofilio .portfolio-button{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+#myportofilio .portfolio-button .btn{
+    margin-left: 1px;
+}
+
+#myportofilio .portfolio-button .btn-outline-danger{
+    border-color:#777777;
+    color:black;
+    background-color: transparent;
+}
+
+
+
+#myportofilio .portfolio-button .btn-outline-danger:hover{
+    border-color:#dc3545;
+    color: #dc3545;
+    background-color: #fff;
+    
+}
+
+
+#myportofilio .caption6 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+#myportofilio .caption6 .fas{
+    margin-top: -29px;
+    font-size: 25px;
+    border-radius: 25px;
+    
+}
+
+#myportofilio .caption6 .card:hover i{
+    color: #fff;
+    background-color: black;
+}
+
+
+  
+
+
+
+
+
+
+#myportofilio .gettouchbutton {
+    text-align: center;
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#myportofilio .gettouchbutton .btn{
+    padding: 10px 25px;
+}
+#myportofilio .gettouchbutton .btn-outline-danger{
+    border-color: darkred;
+    background-color: darkred;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#slider .sllider{
+    background-image:url(client-testimonial.jpg);
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+#slider .slilder .carousel{
+    
+  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#hire-me .hireme-caption{
+    padding-top: 50px;
+}
+
+
+
+
+#hire-me .hireme-caption h4{
+        font-weight: 900;
+    font-size: 35px;
+   
+}
+
+
+
+#hire-me .hireme-caption p{
+   padding-top: 5px;
+        font-weight: 300;
+        font-size: 16px;
+        color: #777777;
+    font-family: 'Poppins', Helvetica, arial, sans-serif;
+}
+
+
+
+
+
+
+#hire-me .hireme-caption2{
+    padding-top: 40px;
+}
+
+#hire-me .hireme-caption2 h5{
+      font-weight: 700;
+    font-size: 20px;
+}
+
+
+#hire-me .hireme-caption2 p{
+    padding-top: 5px;
+        font-weight: 300;
+        font-size: 16px;
+        color: #777777;
+    font-family: 'Poppins', Helvetica, arial, sans-serif;
+      
+}
+
+#hire-me .hireme-caption2 .hireparg{
+    padding-top: 10px;
+}
+
+
+#hire-me .hireme-caption2 .hireme-icon{
+    padding-right: 15px;
+}
+
+
+#hire-me .hireme-caption2  .hireme-mail{
+    color: red;
+}
+
+
+
+
+
+#hire-me .hireme-caption3 ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+
+#hire-me .hireme-caption3 ul .hire-item{
+    float: left;
+     border: 1px solid #777777;
+    padding: 0px 5px;
+    margin-right: 3px;
+}
+
+
+#hire-me .hireme-caption3 ul .hire-item a{
+    padding: 10px 10px;
+    font-size: 30px;
+    color:  #777777;
+    
+}
+
+#hire-me  ul li:hover   {
+    color: #fff;
+    background-color: red;
+}
+    
+   
+    
+    
+#hire-me .hire-form{
+    padding-top: 60px;
+}
+
+
+#hire-me .hire-form .btn-primary {
+    color: #fff;
+    background-color: #ec3237;
+    border-color: #ec3237;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer .footer-txt{
+    text-align: center;
+}
+
+
+#footer .footer-txt p{
+    color: #9e9e9e;
+    font-weight: 300;
+    font-family: 'Poppins', Helvetica, arial, sans-serif;
+}
+
+#footer .footer-txt .footer-link{
+    
+    color: #BF360C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
